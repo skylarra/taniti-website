@@ -50,9 +50,28 @@ nav {
 }
 
 nav a {
-    margin: auto 20px;
+    margin: auto 10px;
     color: #025a62;
     padding: 5px;
+}
+
+@media (max-width: 400px) {
+    .home-nav-taniti {
+        margin: auto;
+        padding: 5px;
+        font-size: 24px;
+    }
+    
+    header .taniti {
+        margin: auto;
+        padding: 5px;
+        font-size: 24px;
+    }
+    
+    nav a {
+        margin: auto;
+        padding: 5px;
+    }
 }
 
 .home-nav {
