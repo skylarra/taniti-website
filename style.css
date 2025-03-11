@@ -57,20 +57,22 @@ nav a {
 
 @media (max-width: 400px) {
     .home-nav-taniti {
-        margin: auto;
         padding: 5px;
         font-size: 24px;
     }
     
     header .taniti {
-        margin: auto;
         padding: 5px;
         font-size: 24px;
+    }
+
+    header {
+        justify-content: space-between;
     }
     
     nav a {
         margin: auto;
-        padding: 5px;
+        padding: 2px;
     }
 }
 
@@ -90,12 +92,27 @@ a {
 }
 
 footer {
+    display: block;
+    background-color: #b6d6d3;
+    padding: 20px;
+}
+
+.footer-container {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
-    background-color: #b6d6d3;
 }
 
+.text-link-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.in-text-link {
+    text-align: center;
+    color: #025a62;
+}
+ 
 .col {
     display: flex;
     flex-direction: column;
@@ -162,6 +179,14 @@ footer {
     .introduction h1 {
         font-size: clamp(5rem, 10vw, 8rem);
         margin-top: -50px;
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    .footer-container {
+        padding: 0;
     }
 }
 
